@@ -5,6 +5,9 @@ package vt.rpi.labs.adc;
  */
 public interface AdcReader {
 
+    /**
+     * @return a integer read from the ADC
+     */
     int read();
 
 }
